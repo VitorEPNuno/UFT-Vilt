@@ -1,0 +1,163 @@
+2021-06-10 12:15:51,752 [1] INFO  - Loaded appender: FileAppenderInternal
+2021-06-10 12:15:51,760 [1] INFO  - Loaded appender: FileAppenderExternal
+2021-06-10 12:15:51,760 [1] INFO  - Loaded appender: UserLoggerAppender
+2021-06-10 12:15:51,761 [1] INFO  - Loaded appender: FileAppenderInternal
+2021-06-10 12:15:51,761 [1] INFO  - Loaded appender: FileAppenderExternal
+2021-06-10 12:15:51,761 [1] INFO  - Loaded appender: UserLoggerAppender
+2021-06-10 12:15:52,092 [9] INFO  - Step 'Start' : Step 'Start' started
+2021-06-10 12:15:52,125 [9] INFO  - Step 'Start' ended successfully
+2021-06-10 12:15:52,128 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2021-06-10 12:15:52,135 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2021-06-10 12:15:52,146 [9] INFO  - Step 'GetFlights' : Step 'GetFlights' started
+2021-06-10 12:15:52,158 [9] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetFlights xmlns="HP.SOAQ.SampleApp">
+      <DepartureCity>London</DepartureCity>
+      <ArrivalCity>Paris</ArrivalCity>
+      <FlightDate>2022-01-01T00:00:00+00:00</FlightDate>
+    </GetFlights>
+  </Body>
+</Envelope>
+
+2021-06-10 12:15:52,176 [9] INFO  - URL: http://localhost:8000/Flights_SOAP
+2021-06-10 12:15:52,203 [9] INFO  - Returning the response to the previous channel
+2021-06-10 12:15:52,208 [9] INFO  - 
+Response:
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetFlightsResponse xmlns="HP.SOAQ.SampleApp">
+      <GetFlightsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <Flight>
+          <Airline>QF</Airline>
+          <ArrivalCity>Paris</ArrivalCity>
+          <ArrivalTime>11:31 AM</ArrivalTime>
+          <DepartureCity>London</DepartureCity>
+          <DepartureTime>09:51 AM</DepartureTime>
+          <FlightNumber>10436</FlightNumber>
+          <Price>171.8</Price>
+        </Flight>
+        <Flight>
+          <Airline>QF</Airline>
+          <ArrivalCity>Paris</ArrivalCity>
+          <ArrivalTime>10:19 AM</ArrivalTime>
+          <DepartureCity>London</DepartureCity>
+          <DepartureTime>08:39 AM</DepartureTime>
+          <FlightNumber>11079</FlightNumber>
+          <Price>167.4</Price>
+        </Flight>
+        <Flight>
+          <Airline>QF</Airline>
+          <ArrivalCity>Paris</ArrivalCity>
+          <ArrivalTime>06:43 PM</ArrivalTime>
+          <DepartureCity>London</DepartureCity>
+          <DepartureTime>05:03 PM</DepartureTime>
+          <FlightNumber>11430</FlightNumber>
+          <Price>156.6</Price>
+        </Flight>
+        <Flight>
+          <Airline>QF</Airline>
+          <ArrivalCity>Paris</ArrivalCity>
+          <ArrivalTime>05:31 PM</ArrivalTime>
+          <DepartureCity>London</DepartureCity>
+          <DepartureTime>03:51 PM</DepartureTime>
+          <FlightNumber>12322</FlightNumber>
+          <Price>129</Price>
+        </Flight>
+        <Flight>
+          <Airline>AF</Airline>
+          <ArrivalCity>Paris</ArrivalCity>
+          <ArrivalTime>12:24 PM</ArrivalTime>
+          <DepartureCity>London</DepartureCity>
+          <DepartureTime>10:24 AM</DepartureTime>
+          <FlightNumber>12554</FlightNumber>
+          <Price>169</Price>
+        </Flight>
+        <Flight>
+          <Airline>AF</Airline>
+          <ArrivalCity>Paris</ArrivalCity>
+          <ArrivalTime>02:48 PM</ArrivalTime>
+          <DepartureCity>London</DepartureCity>
+          <DepartureTime>12:48 PM</DepartureTime>
+          <FlightNumber>12558</FlightNumber>
+          <Price>165.7</Price>
+        </Flight>
+        <Flight>
+          <Airline>AF</Airline>
+          <ArrivalCity>Paris</ArrivalCity>
+          <ArrivalTime>05:12 PM</ArrivalTime>
+          <DepartureCity>London</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>12562</FlightNumber>
+          <Price>162.4</Price>
+        </Flight>
+        <Flight>
+          <Airline>QF</Airline>
+          <ArrivalCity>Paris</ArrivalCity>
+          <ArrivalTime>09:07 PM</ArrivalTime>
+          <DepartureCity>London</DepartureCity>
+          <DepartureTime>07:27 PM</DepartureTime>
+          <FlightNumber>12937</FlightNumber>
+          <Price>170.6</Price>
+        </Flight>
+        <Flight>
+          <Airline>QF</Airline>
+          <ArrivalCity>Paris</ArrivalCity>
+          <ArrivalTime>12:43 PM</ArrivalTime>
+          <DepartureCity>London</DepartureCity>
+          <DepartureTime>11:03 AM</DepartureTime>
+          <FlightNumber>13095</FlightNumber>
+          <Price>167.8</Price>
+        </Flight>
+      </GetFlightsResult>
+    </GetFlightsResponse>
+  </s:Body>
+</s:Envelope>
+
+2021-06-10 12:15:52,225 [9] INFO  - Structural Validation: True
+2021-06-10 12:15:52,231 [9] INFO  - Step 'GetFlights' ended successfully
+2021-06-10 12:15:52,232 [9] INFO  - Step 'CreateFlightOrder' : Step 'CreateFlightOrder' started
+2021-06-10 12:15:52,236 [9] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Body>
+    <CreateFlightOrder xmlns="HP.SOAQ.SampleApp">
+      <FlightOrder>
+        <Class>Business</Class>
+        <CustomerName>Ron S</CustomerName>
+        <DepartureDate>2022-01-01T00:00:00+00:00</DepartureDate>
+        <FlightNumber>10436</FlightNumber>
+        <NumberOfTickets>2</NumberOfTickets>
+      </FlightOrder>
+    </CreateFlightOrder>
+  </Body>
+</Envelope>
+
+2021-06-10 12:15:52,238 [9] INFO  - URL: http://localhost:8000/Flights_SOAP
+2021-06-10 12:15:52,247 [9] INFO  - Returning the response to the previous channel
+2021-06-10 12:15:52,249 [9] INFO  - 
+Response:
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <CreateFlightOrderResponse xmlns="HP.SOAQ.SampleApp">
+      <CreateFlightOrderResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <OrderNumber>90</OrderNumber>
+        <TotalPrice>687.2</TotalPrice>
+      </CreateFlightOrderResult>
+    </CreateFlightOrderResponse>
+  </s:Body>
+</s:Envelope>
+
+2021-06-10 12:15:52,253 [9] INFO  - Structural Validation: True
+2021-06-10 12:15:52,256 [9] INFO  - Step 'CreateFlightOrder' ended successfully
+2021-06-10 12:15:52,257 [9] INFO  - Step 'Report Message6' : Step 'Report Message6' started
+2021-06-10 12:15:52,261 [9] INFO  - Step 'Report Message6' : 90
+2021-06-10 12:15:52,267 [9] INFO  - Step 'Iteration 1' ended successfully
+2021-06-10 12:15:52,270 [9] INFO  - Step 'Test Flow' ended successfully
+2021-06-10 12:15:52,272 [9] INFO  - Step 'End' : Step 'End' started
+2021-06-10 12:15:52,281 [9] INFO  - Step 'End' ended successfully

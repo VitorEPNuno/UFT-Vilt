@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>cf1f3116-5b0c-4019-b653-4f20565ab817</ID>
+  <Name>Flights_SO</Name>
+  <Type>WSDL</Type>
+  <Version>1</Version>
+  <CreationDate>2021-06-10T11:14:13.3085101+00:00</CreationDate>
+  <UpdateDate>2021-06-10T11:14:13.3085101+00:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>a3712b62-c53d-49fa-b5cb-a6d4014e90d0.xml</MetaDataSignatureFile>
+  <TestResourceId>a3712b62-c53d-49fa-b5cb-a6d4014e90d0</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.WebServiceWsdl</SignatureCodonId>
+  <SignatureAddinVersion>15.0.2.1306</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\demo\Documents\Unified Functional Testing\intl-uft-june-2021\Boog a Flight\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\demo\Documents\Unified Functional Testing\intl-uft-june-2021\Boog a Flight\EmbeddedResources\Flights_SO</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>15.0.2.1306</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>
