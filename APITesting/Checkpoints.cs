@@ -123,6 +123,15 @@ namespace Script
             BaseCPRule StracturalRule = new StracturalRule(activity, ExpectedSchema, stracturalPropsInfo);
             activity.AddCheckpointRule(StracturalRule);
 
+            // Checkpoint 2
+            IVTDGetter actualValueGetter2 = new VTDXPathGetter(new VTDPropertyInfoBase("OutputEnvelope", "/*[local-name(.)='Envelope'][1]/*[local-name(.)='Body'][1]/*[local-name(.)='CreateFlightOrderResponse'][1]/*[local-name(.)='CreateFlightOrderResult'][1]/*[local-name(.)='OrderNumber'][1]"), XmlTypeCode.Int, false);
+            IVTDSetter actualValueSetter2 = new VTDCheckpointSetter(XmlTypeCode.Int);
+            BindDirection actualBindDirection2 = new BindDirection(_flow.StServiceCallActivity5, actualValueGetter2, actualValueSetter2);
+            CpValObj valueActualObject2 = new CpValObj(actualBindDirection2, XmlTypeCode.Int, false);
+            CpValObj valueExpectedObject2 = new CpValObj("10", XmlTypeCode.Int);
+            ValueCPRule cpRule2 = new ValueCPRule(valueActualObject2, valueExpectedObject2, PrimitiveTypeCP.LargerThanOrEqualTo, ">=", false);
+            activity.AddCheckpointRule(cpRule2);
+
         }
     }
 }

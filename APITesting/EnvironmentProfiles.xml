@@ -32,13 +32,13 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>C:\Users\demo\Documents\Unified Functional Testing\UFT-Vilt\APITesting</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>APITesting</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>LocalHostName</VarName>
@@ -86,7 +86,7 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>6/10/2021 12:49:59 PM</SystemProfile>
+    <SystemProfile>6/10/2021 12:51:01 PM</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>
