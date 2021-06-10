@@ -32,13 +32,13 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>C:\Users\demo\Documents\Unified Functional Testing\intl-uft-june-2021\Boog a Flight</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>Boog a Flight</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>LocalHostName</VarName>
@@ -86,7 +86,7 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>6/10/2021 12:04:18 PM</SystemProfile>
+    <SystemProfile>6/10/2021 1:00:37 PM</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>

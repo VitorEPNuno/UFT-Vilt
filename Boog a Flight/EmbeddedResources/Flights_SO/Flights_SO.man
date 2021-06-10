@@ -18,7 +18,7 @@
         <string>RepositoryPath</string>
       </Key>
       <Value>
-        <string>C:\Users\demo\Documents\Unified Functional Testing\intl-uft-june-2021\Boog a Flight\EmbeddedResources</string>
+        <string>C:\Users\demo\Documents\Unified Functional Testing\UFT-Vilt\Boog a Flight\EmbeddedResources</string>
       </Value>
     </Item>
     <Item>
@@ -26,7 +26,7 @@
         <string>ResourceOrigin</string>
       </Key>
       <Value>
-        <string>C:\Users\demo\Documents\Unified Functional Testing\intl-uft-june-2021\Boog a Flight\EmbeddedResources\Flights_SO</string>
+        <string>C:\Users\demo\Documents\Unified Functional Testing\UFT-Vilt\Boog a Flight\EmbeddedResources\Flights_SO</string>
       </Value>
     </Item>
     <Item>
