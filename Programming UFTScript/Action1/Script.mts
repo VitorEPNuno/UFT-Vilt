@@ -6,7 +6,7 @@ Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Beats Studi
 foo = Browser("Advantage Shopping"). _Page("Advantage Shopping"). _WebElement("Score").Exist (20)
 currentScore = CDbl(Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Score").GetROProperty("innerhtml"))
 
-print currentScore &"|"& desiredScore &"|"& currentScore > desiredScore\
+print currentScore &"|"& desiredScore &"|"& currentScore > desiredScore
 
 If currentScore>=desiredScore Then
 	Reporter.ReportEvent micPass, "checkScore", "Score exceeded the desired value of" & desiredScore
